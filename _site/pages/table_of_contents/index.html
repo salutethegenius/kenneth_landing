@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table of Contents | Almanack of Kenneth C. Moncur</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --turquoise: #00b7c2;
+      --yellow: #ffc72c;
+      --black: #222222;
+      --white: #ffffff;
+      --gray: #f7f7f7;
+    }
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: var(--white);
+      color: var(--black);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      box-sizing: border-box;
+    }
+    h1, h2, h3 {
+      font-family: 'IBM Plex Serif', serif;
+    }
+    .site-header {
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+      position: relative;
+    }
+    .site-header-title {
+      font-family: 'IBM Plex Serif', serif;
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .site-header-title a {
+      color: var(--black);
+      text-decoration: none;
+    }
+    .site-header-title .divider {
+      color: #ccc;
+      margin: 0 0.5rem;
+    }
+    /* Hamburger menu styles */
+    .hamburger {
+      position: absolute;
+      left: 1.5rem;
+      top: 1.2rem;
+      width: 32px;
+      height: 32px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 1001;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hamburger span, .hamburger span:before, .hamburger span:after {
+      display: block;
+      background: var(--black);
+      height: 3px;
+      width: 24px;
+      border-radius: 2px;
+      position: absolute;
+      transition: all 0.3s;
+      content: '';
+    }
+    .hamburger span {
+      position: relative;
+    }
+    .hamburger span:before {
+      content: '';
+      top: -8px;
+      position: absolute;
+    }
+    .hamburger span:after {
+      content: '';
+      top: 8px;
+      position: absolute;
+    }
+    /* Side menu styles */
+    .side-menu {
+      position: fixed;
+      top: 0;
+      left: -300px;
+      width: 260px;
+      height: 100vh;
+      background: #fff;
+      box-shadow: 2px 0 16px rgba(0,0,0,0.08);
+      z-index: 1002;
+      padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+      transition: left 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .side-menu.open {
+      left: 0;
+    }
+    .side-menu .close-btn {
+      background: none;
+      border: none;
+      font-size: 1.7rem;
+      color: var(--black);
+      align-self: flex-end;
+      cursor: pointer;
+      margin-bottom: 2rem;
+    }
+    .side-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2rem 0;
+    }
+    .side-menu ul li {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 1.1rem;
+      margin: 1.1rem 0;
+      color: #444;
+      font-weight: 500;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+    .side-menu ul li.active {
+      color: #bbb;
+      font-weight: 700;
+      cursor: default;
+    }
+    .side-menu .side-footer {
+      font-size: 0.95rem;
+      color: #444;
+      text-align: center;
+      margin-top: auto;
+      border-top: 1px solid #eee;
+      padding-top: 1.5rem;
+      padding-bottom: 1rem;
+      overflow-wrap: break-word;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .side-menu-bg {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.08);
+      z-index: 1000;
+    }
+    .side-menu.open ~ .side-menu-bg {
+      display: block;
+    }
+    .main-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: stretch;
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 3rem 1rem;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .content-column {
+      flex: 3;
+      padding-right: 3rem;
+    }
+    .sidebar-column {
+      flex: 1;
+      padding-top: 0;
+    }
+    .sidebar-column.sidebar-align-body {
+      margin-top: 5rem;
+    }
+    .page-title {
+      font-family: 'IBM Plex Serif', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: var(--turquoise);
+    }
+    .title-divider {
+      width: 40px;
+      height: 3px;
+      background-color: var(--turquoise);
+      margin: 0 auto 3rem auto;
+      border: 0;
+    }
+    a {
+      color: var(--black);
+      text-decoration: none;
+      border-bottom: 1px solid #ccc;
+      transition: all 0.2s;
+    }
+    a:hover {
+      color: var(--turquoise);
+      border-bottom-color: var(--turquoise);
+    }
+    h2 {
+      font-family: 'IBM Plex Serif', serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      margin-top: 2.5rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .author-block {
+      text-align: center;
+    }
+    .author-block img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .author-block .author-name {
+      font-family: 'IBM Plex Serif', serif;
+      font-weight: 700;
+      color: var(--turquoise);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+    .author-block .author-bio {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.5;
+    }
+    .sidebar-block h3 {
+      font-family: 'IBM Plex Serif', serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+    .sidebar-block p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    @media (max-width: 800px) {
+      .main-container { flex-direction: column; }
+      .content-column { padding-right: 0; }
+      .sidebar-column { padding-top: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+    <span></span>
+  </button>
+  <nav class="side-menu" id="sideMenu">
+    <button class="close-btn" id="closeMenuBtn" aria-label="Close menu">&times;</button>
+    <ul>
+      <li class="active">Home</li>
+      <li>Books</li>
+      <li>Essays</li>
+      <li>Quizzes</li>
+      <li>Media Gallery</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <div class="side-footer">
+      Thank you for visiting the site. Enjoy the published content and the book. We appreciate your support, and please pay it forward.
+    </div>
+  </nav>
+  <div class="side-menu-bg" id="sideMenuBg"></div>
+  <header class="site-header">
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+      <div class="site-header-title">
+        <a href="/">
+          ALMANACK OF KENNETH C. MONCUR <span class="divider">•</span> SYSTEMS • CODE • LEGACY
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <section style="text-align: center; padding: 1.05rem 1rem 5rem;">
+    <h1 style="font-family: 'IBM Plex Serif', serif; font-weight: bold; font-size: 3.5rem; margin-bottom: 0.5rem;">
+      START HERE
+    </h1>
+    <p style="font-style: italic; font-size: 1.05rem; color: #555; max-width: 600px; margin: 0 auto;">
+      A personal guide to freedom, systems, and sovereign thinking in the digital age.
+    </p>
+  </section>
+  
+  <div class="main-container">
+    <main class="content-column" style="transform: translateX(5%);">
+      
+      <h2>IMPORTANT NOTES</h2>
+<ul>
+<li><a href="/about/">About This Almanac</a></li>
+<li><a href="/foreword/">Foreword</a></li>
+<li><a href="/timeline/">Timeline</a></li>
+</ul>
+<h2>PART I: DIGITAL FREEDOM</h2>
+<p><strong>BUILDING WEALTH</strong></p>
+<ul>
+<li><a href="/books/building-digital-wealth/">Understand How Wealth Is Created</a></li>
+<li><a href="/essays/specific-knowledge/">Find and Build Specific Knowledge</a></li>
+<li><a href="/essays/long-term-games/">Play Long-Term Games with Long-Term People</a></li>
+<li><a href="/essays/accountability/">Take on Accountability</a></li>
+</ul>
+<p><strong>BUILDING JUDGMENT</strong></p>
+<ul>
+<li><a href="/essays/judgment/">How to Think Clearly</a></li>
+<li><a href="/essays/identity/">Shed Your Identity to See Reality</a></li>
+<li><a href="/essays/decision-making/">Learn the Skills of Decision-Making</a></li>
+</ul>
+<h2>PART II: DISCIPLINE &amp; HAPPINESS</h2>
+<p><strong>LEARNING HAPPINESS</strong></p>
+<ul>
+<li><a href="/essays/happiness/">Happiness Is Learned</a></li>
+<li><a href="/essays/choice/">Happiness Is a Choice</a></li>
+<li><a href="/essays/presence/">Happiness Requires Presence</a></li>
+</ul>
+<p><strong>SAVING YOURSELF</strong></p>
+<ul>
+<li><a href="/essays/be-yourself/">Choosing to Be Yourself</a></li>
+<li><a href="/essays/self-care/">Choosing to Care for Yourself</a></li>
+<li><a href="/essays/meditation/">Meditation + Mental Strength</a></li>
+<li><a href="/essays/freedom/">Choosing to Free Yourself</a></li>
+</ul>
+<h2>BONUS</h2>
+<ul>
+<li><a href="/books/recommended/">Recommended Reading</a></li>
+<li><a href="/quizzes/">Bahamian Quizzes</a></li>
+<li><a href="/media/">Media Gallery</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul>
+
+    </main>
+    
+    <aside class="sidebar-column sidebar-align-body">
+      <div class="author-block">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=150&q=80" alt="Kenneth Moncur">
+        <div class="author-name">Kenneth C. Moncur</div>
+        <p class="author-bio">Author, digital freedom advocate, and Bahamian thinker.</p>
+        <a href="mailto:kenneth@bahamas.com">Contact</a>
+      </div>
+      <div class="sidebar-block" style="margin-top: 3rem;">
+        <div style="text-align: center;">
+          <h3>About the Almanac</h3>
+          <p>A guide to digital freedom, discipline, and legacy—rooted in Bahamian culture and global curiosity.</p>
+        </div>
+      </div>
+    </aside>
+    
+  </div>
+  <script>
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const sideMenu = document.getElementById('sideMenu');
+    const closeMenuBtn = document.getElementById('closeMenuBtn');
+    const sideMenuBg = document.getElementById('sideMenuBg');
+    hamburgerBtn.addEventListener('click', () => {
+      sideMenu.classList.add('open');
+      sideMenuBg.style.display = 'block';
+    });
+    closeMenuBtn.addEventListener('click', () => {
+      sideMenu.classList.remove('open');
+      sideMenuBg.style.display = 'none';
+    });
+    sideMenuBg.addEventListener('click', () => {
+      sideMenu.classList.remove('open');
+      sideMenuBg.style.display = 'none';
+    });
+  </script>
+</body>
+</html> 
