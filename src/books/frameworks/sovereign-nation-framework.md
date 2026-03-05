@@ -104,12 +104,12 @@ th {
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">🇧🇸 The Sovereign Nation Framework</h1>
+        <h1 class="book-title">The Sovereign Nation Framework</h1>
         <p class="book-subtitle">A blueprint for post-colonial self-determination, powered by data, culture, and tools.</p>
     </div>
 
     <div class="section">
-        <h2>⚖️ 1. Foundational Principles</h2>
+        <h2>1. Foundational Principles</h2>
         <p>Every sovereign nation must be rooted in the following:</p>
         
         <table>
@@ -145,7 +145,7 @@ th {
     </div>
 
     <div class="section">
-        <h2>🔧 2. Sovereign Systems Stack</h2>
+        <h2>2. Sovereign Systems Stack</h2>
         <p>Here are the 9 core systems every sovereign nation or project must either own or rebuild:</p>
 
         <h3>1. Education Infrastructure</h3>
@@ -213,7 +213,7 @@ th {
     </div>
 
     <div class="section">
-        <h2>📡 3. Scaling Mechanisms</h2>
+        <h2>3. Scaling Mechanisms</h2>
         
         <table>
             <thead>
@@ -248,7 +248,7 @@ th {
     </div>
 
     <div class="section">
-        <h2>🧱 4. Constitution of Sovereignty</h2>
+        <h2>4. Constitution of Sovereignty</h2>
         
         <div class="framework-pillar">
             <strong>Core Declarations:</strong>
@@ -261,7 +261,7 @@ th {
     </div>
 
     <div class="section">
-        <h2>🌍 5. Integration Path for Small Nations</h2>
+        <h2>5. Integration Path for Small Nations</h2>
         <p>Start outside of politics, then gradually influence policy through impact.</p>
         
         <div class="framework-pillar">
@@ -277,7 +277,7 @@ th {
     </div>
 
     <div class="section">
-        <h2>🛠 Ready-To-Build Modules (VerityOS-Compatible)</h2>
+        <h2>Ready-To-Build Modules (VerityOS-Compatible)</h2>
         
         <table>
             <thead>
@@ -312,7 +312,7 @@ th {
     </div>
 
     <div class="final-word">
-        <h2>✊ Final Word: The Quiet Revolution</h2>
+        <h2>Final Word: The Quiet Revolution</h2>
         <p>You don't need to scream "sovereignty" to challenge the system.<br>
         You need to build so well they can't ignore the alternative.<br>
         And when they try to sabotage it, the people will already be using it.</p>

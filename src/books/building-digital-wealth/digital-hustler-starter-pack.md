@@ -65,7 +65,7 @@ show_sidebar: true
 }
 
 .learn-list li:before {
-    content: "📚";
+    content: "•";
     position: absolute;
     left: 0;
 }
@@ -146,7 +146,7 @@ show_sidebar: true
     <div class="download-section">
         <h2 style="color: white; border: none; padding: 0; margin-bottom: 20px;">Download the Complete Guide</h2>
         <p style="color: white; margin-bottom: 25px;">Get the full detailed guide with examples and step-by-step instructions</p>
-        <a href="The%20Digital%20Hustler%20Starter%20Kit.pdf" class="download-btn">📥 Download PDF</a>
+        <a href="The%20Digital%20Hustler%20Starter%20Kit.pdf" class="download-btn">Download PDF</a>
     </div>
 
     <div class="author-note">

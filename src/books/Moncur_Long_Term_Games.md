@@ -113,7 +113,7 @@ show_sidebar: true
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">🔁 Play Long-Term Games with Long-Term People</h1>
+        <h1 class="book-title">Play Long-Term Games with Long-Term People</h1>
         <p class="book-subtitle">By Kenneth Moncur</p>
     </div>
 
@@ -124,7 +124,7 @@ show_sidebar: true
     </div>
 
     <div class="games-section">
-        <h3>🧠 What Does It Mean?</h3>
+        <h3>What Does It Mean?</h3>
         <p>A <strong>long-term game</strong> is any vision, business, or mission that compounds over time:</p>
         <ul>
             <li>A platform that grows stronger with every user</li>
@@ -141,7 +141,7 @@ show_sidebar: true
     </div>
 
     <div class="games-section">
-        <h3>🇧🇸 Why It Matters in The Bahamas</h3>
+        <h3>Why It Matters in The Bahamas</h3>
         <p>Because here:</p>
         <ul>
             <li>Everyone knows everyone</li>
@@ -162,7 +162,7 @@ show_sidebar: true
     </div>
 
     <div class="games-section">
-        <h3>🔍 How to Spot Long-Term People</h3>
+        <h3>How to Spot Long-Term People</h3>
         <p>Look for those who:</p>
         <ul>
             <li>Say "we" more than "me"</li>
@@ -173,7 +173,7 @@ show_sidebar: true
     </div>
 
     <div class="games-section">
-        <h3>🔁 What Long-Term Games Look Like in The Bahamas</h3>
+        <h3>What Long-Term Games Look Like in The Bahamas</h3>
         <ul>
             <li>Building a national education platform (Kemis Academy)</li>
             <li>Creating a local tech stack that outlasts government turnover (VerityOS)</li>
@@ -185,7 +185,7 @@ show_sidebar: true
     </div>
 
     <div class="games-section">
-        <h3>⚠️ What to Avoid</h3>
+        <h3>What to Avoid</h3>
         <ul>
             <li>Short-term hype men</li>
             <li>People who disappear after one setback</li>
@@ -195,7 +195,7 @@ show_sidebar: true
     </div>
 
     <div class="final-word">
-        <h3>✅ Final Word</h3>
+        <h3>Final Word</h3>
         <p><strong>If you want to go far, go together — but only with people who plan to finish the race.</strong><br>
         Play long games with people who think legacy, not likes.</p>
         <p>In a place like The Bahamas, that's how you outlast the chaos and build systems that actually serve the people.</p>

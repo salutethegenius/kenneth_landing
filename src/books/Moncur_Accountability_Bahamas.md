@@ -113,7 +113,7 @@ show_sidebar: true
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">🧱 Take On Accountability – Bahamian Edition</h1>
+        <h1 class="book-title">Take On Accountability – Bahamian Edition</h1>
         <p class="book-subtitle">By Kenneth Moncur</p>
     </div>
 
@@ -125,7 +125,7 @@ show_sidebar: true
     </div>
 
     <div class="accountability-section">
-        <h3>🔍 What Is Accountability?</h3>
+        <h3>What Is Accountability?</h3>
         <p>Accountability means this:</p>
         <ul>
             <li><strong>If it fails, it's on you.</strong></li>
@@ -136,7 +136,7 @@ show_sidebar: true
     </div>
 
     <div class="accountability-section">
-        <h3>🇧🇸 Why It Hits Different in The Bahamas</h3>
+        <h3>Why It Hits Different in The Bahamas</h3>
         <p>Because here:</p>
         <ul>
             <li>People hide behind committees, politics, and titles</li>
@@ -148,7 +148,7 @@ show_sidebar: true
     </div>
 
     <div class="accountability-section">
-        <h3>💼 Where It Shows Up in Real Life</h3>
+        <h3>Where It Shows Up in Real Life</h3>
         <ul>
             <li>You start a business? You show up early, you solve client problems, you don't point fingers.</li>
             <li>You launch a platform? You track every bug, every dollar, every user experience — like it's your name on the line.</li>
@@ -157,7 +157,7 @@ show_sidebar: true
     </div>
 
     <div class="accountability-section">
-        <h3>⚖️ Accountability vs. Image</h3>
+        <h3>Accountability vs. Image</h3>
         <p>Let other people chase likes. Let other people worry about appearances.</p>
         <p>You? You worry about outcomes.</p>
         <blockquote>"You don't need credit. You need clarity."</blockquote>
@@ -165,7 +165,7 @@ show_sidebar: true
     </div>
 
     <div class="final-word">
-        <h3>✅ Final Word</h3>
+        <h3>Final Word</h3>
         <p><strong>If you want to lead in this country — really lead — take on accountability like it's your birthright.</strong><br>
         That's how you earn trust. That's how you build empires.<br>
         That's how you become the person the next generation can lean on.</p>

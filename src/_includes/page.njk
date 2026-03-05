@@ -39,7 +39,7 @@
       text-transform: uppercase;
     }
     .site-header-title a {
-      color: #666666;
+      color: #333333;
       text-decoration: none;
     }
     .site-header-title .divider {
@@ -133,7 +133,7 @@
     }
     .side-menu .side-footer {
       font-size: 0.95rem;
-      color: #444;
+      color: #444444;
       text-align: center;
       margin-top: auto;
       border-top: 1px solid #eee;
@@ -168,6 +168,9 @@
     .content-column {
       flex: 3;
       padding-right: 3rem;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #333333;
     }
     .sidebar-column {
       flex: 1;
@@ -214,6 +217,9 @@
       list-style: none;
       padding-left: 0;
     }
+    .content-column p {
+      margin-bottom: 1.3rem;
+    }
     .author-block {
       text-align: center;
     }
@@ -231,9 +237,9 @@
       text-transform: uppercase;
     }
     .author-block .author-bio {
-      font-size: 0.9rem;
-      color: #555;
-      line-height: 1.5;
+      font-size: 0.95rem;
+      color: #444444;
+      line-height: 1.7;
     }
     .sidebar-block h3 {
       font-family: 'IBM Plex Serif', serif;
@@ -243,12 +249,227 @@
     }
     .sidebar-block p {
       font-size: 0.9rem;
-      color: #555;
+      color: #444444;
+    }
+    /* Homepage layout & typography */
+    .home-hero,
+    .home-philosophy,
+    .home-almanack,
+    .home-featured,
+    .home-start,
+    .home-subscribe {
+      max-width: 760px;
+      margin: 0 auto 3.5rem auto;
+    }
+    .home-hero {
+      margin-top: 3rem;
+      padding-top: 1rem;
+    }
+    .home-hero-eyebrow {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #777777;
+      margin-bottom: 0.75rem;
+    }
+    .home-hero-title {
+      font-family: 'IBM Plex Serif', serif;
+      font-size: 3.25rem;
+      line-height: 1.05;
+      margin: 0 0 0.75rem 0;
+    }
+    .home-hero-subtitle {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #777777;
+      margin-bottom: 0.75rem;
+    }
+    .home-hero-desc {
+      max-width: 40rem;
+      color: #333333;
+      margin-bottom: 1.5rem;
+    }
+    .home-hero-parts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #777777;
+      margin-bottom: 1.75rem;
+    }
+    .home-hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    .home-btn {
+      display: inline-block;
+      padding: 0.65rem 1.4rem;
+      font-size: 0.85rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      border: 1px solid #cccccc;
+      background: transparent;
+      color: #222222;
+    }
+    .home-btn-primary {
+      background: var(--black);
+      color: var(--white);
+      border-color: var(--black);
+    }
+    .home-btn-secondary {
+      background: #f7f7f7;
+      color: #222222;
+      border-color: #dddddd;
+    }
+    .home-section-header {
+      margin-bottom: 1rem;
+    }
+    .home-section-label {
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #777777;
+      margin-bottom: 0.4rem;
+    }
+    .home-section-header h2 {
+      font-family: 'IBM Plex Serif', serif;
+      font-size: 1.7rem;
+      margin: 0;
+    }
+    .home-section-intro {
+      max-width: 40rem;
+      color: #333333;
+      margin-bottom: 1.5rem;
+    }
+    .home-philosophy-text p:first-child {
+      font-style: italic;
+    }
+    .home-philosophy-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2rem 0 2.5rem 0;
+      gap: 1rem;
+    }
+    .home-signature {
+      font-family: 'IBM Plex Serif', serif;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+    }
+    .home-philosophy-links a {
+      margin-right: 1.25rem;
+      font-size: 0.85rem;
+      border-bottom: 1px solid #bbbbbb;
+    }
+    .home-pillars {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 2rem;
+    }
+    .home-pillar-number {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #777777;
+      margin-right: 0.5rem;
+    }
+    .home-parts-grid,
+    .home-featured-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 2rem;
+    }
+    .home-part-card,
+    .home-featured-card {
+      border-top: 1px solid #e3e3e3;
+      padding-top: 1.25rem;
+      margin-top: 0.75rem;
+    }
+    .home-part-meta,
+    .home-featured-meta {
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #777777;
+      margin-bottom: 0.5rem;
+    }
+    .home-part-count,
+    .home-featured-tag {
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #555555;
+      margin-top: 0.75rem;
+    }
+    .home-featured-footer {
+      margin-top: 2rem;
+    }
+    .home-start-cta {
+      margin: 1.5rem 0 1rem 0;
+    }
+    .home-quote {
+      font-style: italic;
+      color: #444444;
+      margin-top: 1.5rem;
+    }
+    .home-subscribe-note {
+      font-size: 0.85rem;
+      color: #555555;
+      margin-top: 0.75rem;
+    }
+    .home-footer-meta {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #555555;
+    }
+    .home-footer-title {
+      font-family: 'IBM Plex Serif', serif;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+    .home-footer-legal {
+      margin-top: 0.75rem;
+      color: #777777;
     }
     @media (max-width: 800px) {
       .main-container { flex-direction: column; }
       .content-column { padding-right: 0; }
       .sidebar-column { padding-top: 2rem; }
+      .home-hero,
+      .home-philosophy,
+      .home-almanack,
+      .home-featured,
+      .home-start,
+      .home-subscribe {
+        padding: 0 0.25rem;
+        margin-bottom: 2.75rem;
+      }
+      .home-hero-title {
+        font-size: 2.4rem;
+      }
+      .home-pillars,
+      .home-parts-grid,
+      .home-featured-grid {
+        grid-template-columns: 1fr;
+      }
+      .home-hero-ctas {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
@@ -286,7 +507,7 @@
     <h1 style="font-family: 'IBM Plex Serif', serif; font-weight: bold; font-size: 3.5rem; margin-bottom: 0.5rem;">
       START HERE
     </h1>
-    <p style="font-style: italic; font-size: 1.05rem; color: #555; max-width: 600px; margin: 0 auto;">
+    <p style="font-style: italic; font-size: 1.05rem; color: #444; max-width: 600px; margin: 0 auto;">
       A personal guide to freedom, systems, and sovereign thinking in the digital age.
     </p>
   </section>

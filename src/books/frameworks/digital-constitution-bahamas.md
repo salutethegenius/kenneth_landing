@@ -143,7 +143,7 @@ show_sidebar: true
 }
 
 .addon-section li:before {
-    content: "🏝️";
+    content: "•";
     position: absolute;
     left: 0;
 }
@@ -151,7 +151,7 @@ show_sidebar: true
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">🇧🇸 The Digital Constitution of the Young Bahamian Citizen</h1>
+        <h1 class="book-title">The Digital Constitution of the Young Bahamian Citizen</h1>
         <p class="book-subtitle">Drafted by and for the builders of a sovereign, educated, and tech-empowered Bahamas</p>
     </div>
 
@@ -162,7 +162,7 @@ show_sidebar: true
     </div>
 
     <div class="article">
-        <h3>📜 Article I — Identity and Sovereignty</h3>
+        <h3>Article I — Identity and Sovereignty</h3>
         <ol>
             <li>I am more than an islander; I am a global mind grounded in Bahamian soil.</li>
             <li>I reject digital colonization. My data, voice, and creations belong to me.</li>
@@ -171,7 +171,7 @@ show_sidebar: true
     </div>
 
     <div class="article">
-        <h3>💡 Article II — Knowledge is Power</h3>
+        <h3>Article II — Knowledge is Power</h3>
         <ol>
             <li>I commit to lifelong learning — inside school or beyond it.</li>
             <li>I will master not just history and language, but technology, design, money, and code.</li>
@@ -180,7 +180,7 @@ show_sidebar: true
     </div>
 
     <div class="article">
-        <h3>📶 Article III — Digital Freedom and Responsibility</h3>
+        <h3>Article III — Digital Freedom and Responsibility</h3>
         <ol>
             <li>I will protect my online presence like I protect my home — with awareness and boundaries.</li>
             <li>I will not sell my attention to algorithms. I will not become a product.</li>
@@ -189,7 +189,7 @@ show_sidebar: true
     </div>
 
     <div class="article">
-        <h3>🤝 Article IV — Nationhood Starts With Us</h3>
+        <h3>Article IV — Nationhood Starts With Us</h3>
         <ol>
             <li>I owe my community my effort — not my silence.</li>
             <li>I will question my leaders, but I will also become one.</li>
@@ -198,7 +198,7 @@ show_sidebar: true
     </div>
 
     <div class="article">
-        <h3>🌍 Article V — The World is Our Sandbox</h3>
+        <h3>Article V — The World is Our Sandbox</h3>
         <ol>
             <li>I will work globally, build digitally, and reinvest locally.</li>
             <li>I will collaborate with creators, coders, thinkers — from Kenya to Korea — without losing who I am.</li>
@@ -207,7 +207,7 @@ show_sidebar: true
     </div>
 
     <div class="article">
-        <h3>👑 Article VI — Legacy Over Luxury</h3>
+        <h3>Article VI — Legacy Over Luxury</h3>
         <ol>
             <li>I do not chase fame. I chase meaning.</li>
             <li>I do not exist to impress — I exist to build.</li>
@@ -216,13 +216,13 @@ show_sidebar: true
     </div>
 
     <div class="final-clause">
-        <h2>🏁 Final Clause</h2>
+        <h2>Final Clause</h2>
         <p>This constitution is not enforced by police or politics. It is enforced by purpose.</p>
         <p>If you believe you are born for more than beach resorts and broken systems, then you are a citizen of the new Bahamas — and this constitution is yours.</p>
     </div>
 
     <div class="tech-pledge">
-        <h3>📢 National Tech Pledge</h3>
+        <h3>National Tech Pledge</h3>
         <p><em>(for classrooms or programs)</em></p>
         <blockquote>
             "I am Bahamian. I am sovereign.<br>

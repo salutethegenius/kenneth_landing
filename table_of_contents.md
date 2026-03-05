@@ -24,7 +24,7 @@ A warm Bahamian welcome! Feel the breeze, grab some conch salad, and explore wis
 See [My Philosophy](my_philosophy.md) for what guides my journey—rooted in Bahamian culture, curiosity, and a love for learning.
 
 ## Books
-*Stay tuned for my upcoming books—each one a new adventure from Nassau to the world!*
+*Stay tuned for my upcoming books—each one a new adventure from Freeport to the world!*
 
 ## Essays & Ideas
 A collection of my thoughts, research, and musings. From Bay Street to the blue holes, inspiration is everywhere.

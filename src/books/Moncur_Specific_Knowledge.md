@@ -112,7 +112,7 @@ show_sidebar: true
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">🎯 Find and Build Your Specific Knowledge</h1>
+        <h1 class="book-title">Find and Build Your Specific Knowledge</h1>
         <p class="book-subtitle">By Kenneth Moncur</p>
     </div>
 
@@ -123,7 +123,7 @@ show_sidebar: true
     </div>
 
     <div class="knowledge-section">
-        <h3>🔍 What Is Specific Knowledge?</h3>
+        <h3>What Is Specific Knowledge?</h3>
         <p>Specific knowledge is the thing <strong>only you can do like you do</strong>. It's not taught in school, and no one hands it to you.</p>
         
         <p>It's what happens when:</p>
@@ -137,7 +137,7 @@ show_sidebar: true
     </div>
 
     <div class="knowledge-section">
-        <h3>🧭 How to Find It</h3>
+        <h3>How to Find It</h3>
         <p>Ask yourself these questions. Be real.</p>
         
         <ul>
@@ -152,7 +152,7 @@ show_sidebar: true
     </div>
 
     <div class="knowledge-section">
-        <h3>🔨 How to Build It</h3>
+        <h3>How to Build It</h3>
         <p>Here's what I did — and you can do the same in your own way:</p>
         
         <ol>
@@ -165,7 +165,7 @@ show_sidebar: true
     </div>
 
     <div class="knowledge-section">
-        <h3>🧠 My Own Example</h3>
+        <h3>My Own Example</h3>
         <p>I didn't wait for someone to give me a seat at the table. I built my own system:</p>
         <ul>
             <li><strong>VerityOS</strong> for AI sovereignty</li>
@@ -178,7 +178,7 @@ show_sidebar: true
     </div>
 
     <div class="knowledge-section">
-        <h3>🚫 What Not To Do</h3>
+        <h3>What Not To Do</h3>
         <ul>
             <li>Don't waste years being a generalist.</li>
             <li>Don't think your uniqueness isn't valuable.</li>
@@ -187,7 +187,7 @@ show_sidebar: true
     </div>
 
     <div class="knowledge-section">
-        <h3>💡 What You Can Build With It</h3>
+        <h3>What You Can Build With It</h3>
         <p>Once you know your specific knowledge, you can:</p>
         <ul>
             <li>Create digital products</li>
@@ -198,7 +198,7 @@ show_sidebar: true
     </div>
 
     <div class="final-word">
-        <h3>✊ Final Word</h3>
+        <h3>Final Word</h3>
         <p><strong>Specific knowledge is your God-given fingerprint in business.</strong><br>
         Find it. Build it. Own it. Use it to free your family, your people, and your legacy.</p>
         <p>No excuses. Get obsessed. Build what only you can build.</p>

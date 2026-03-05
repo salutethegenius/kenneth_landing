@@ -103,12 +103,12 @@ th {
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">💼 The Moncur Method</h1>
+        <h1 class="book-title">The Moncur Method</h1>
         <p class="book-subtitle">Strategy through sovereignty. Growth with a moral backbone. Vision backed by build.</p>
     </div>
 
     <div class="method-principle">
-        <h3>🧠 1. Think Like a Sovereign</h3>
+        <h3>1. Think Like a Sovereign</h3>
         <p>You don't build businesses — you build <strong>systems</strong>.<br>
         You don't chase trends — you <strong>engineer leverage</strong>.</p>
         
@@ -123,7 +123,7 @@ th {
     </div>
 
     <div class="method-principle">
-        <h3>⚖️ 2. Operate on Dual Philosophies</h3>
+        <h3>2. Operate on Dual Philosophies</h3>
         <p>You see the world through a <strong>naturalist's realism</strong> and an <strong>idealist's imagination</strong>.</p>
         
         <ul>
@@ -135,7 +135,7 @@ th {
     </div>
 
     <div class="method-principle">
-        <h3>🧭 3. Move Quiet, Build Loud</h3>
+        <h3>3. Move Quiet, Build Loud</h3>
         <p>You don't announce change — you <strong>prototype it</strong>.<br>
         Your life is lived in <strong>execution cycles</strong>, not performative cycles.</p>
         
@@ -149,7 +149,7 @@ th {
     </div>
 
     <div class="method-principle">
-        <h3>🧱 4. Decentralize the Power, Centralize the Vision</h3>
+        <h3>4. Decentralize the Power, Centralize the Vision</h3>
         <p>You're not a boss who hoards — you're a <strong>builder who multiplies</strong>.<br>
         You train others, clone systems, and make knowledge open — but your <strong>core thesis remains centralized</strong>.</p>
         
@@ -162,7 +162,7 @@ th {
     </div>
 
     <div class="method-principle">
-        <h3>🌍 5. Always Serve the Underserved</h3>
+        <h3>5. Always Serve the Underserved</h3>
         <p>You don't build for the elite — you <strong>build tools for the overlooked</strong>:</p>
         <ul>
             <li>Small businesses</li>
@@ -175,7 +175,7 @@ th {
     </div>
 
     <div class="method-principle">
-        <h3>🧬 6. Legacy Over Noise</h3>
+        <h3>6. Legacy Over Noise</h3>
         <p>You don't just want profits — you want your daughter, your team, your island to inherit <strong>a better operating system for life</strong>.</p>
         
         <ul>
@@ -188,7 +188,7 @@ th {
     </div>
 
     <div class="summary-section">
-        <h2>🔑 Summary: The Moncur Method is...</h2>
+        <h2>Summary: The Moncur Method is...</h2>
         
         <table>
             <thead>
@@ -216,7 +216,7 @@ th {
                 </tr>
                 <tr>
                     <td><strong>Empower the Masses</strong></td>
-                    <td>From Nassau to Nariyah — tools for the overlooked</td>
+                    <td>From Freeport to Nariyah — tools for the overlooked</td>
                 </tr>
                 <tr>
                     <td><strong>Legacy-Driven</strong></td>

@@ -130,12 +130,12 @@ th {
 
 <div class="book-container">
     <div class="book-header">
-        <h1 class="book-title">💰 How Wealth Is Created: The Bahamian Perspective</h1>
+        <h1 class="book-title">How Wealth Is Created: The Bahamian Perspective</h1>
         <p class="book-subtitle">A blueprint for understanding the flow of value, ownership, and opportunity across our islands and beyond.</p>
     </div>
 
     <div class="wealth-principle">
-        <h3>🧱 1. Wealth is Not Just Money — It's Value Ownership</h3>
+        <h3>1. Wealth is Not Just Money — It's Value Ownership</h3>
         <p><strong>Wealth</strong> is created when you <strong>control something valuable</strong> — and <strong>others pay to access it</strong>.</p>
         
         <p>In The Bahamas, most people only interact with money as:</p>
@@ -157,7 +157,7 @@ th {
     </div>
 
     <div class="wealth-principle">
-        <h3>🌴 2. Tourism Makes Money — But It Doesn't Build Wealth</h3>
+        <h3>2. Tourism Makes Money — But It Doesn't Build Wealth</h3>
         <p>The Bahamas' #1 industry is tourism. But here's the hard truth:</p>
         <ul>
             <li>Most resorts are <strong>foreign-owned</strong></li>
@@ -177,7 +177,7 @@ th {
     </div>
 
     <div class="wealth-principle">
-        <h3>🌾 3. Natural Resources Are Trapped Wealth</h3>
+        <h3>3. Natural Resources Are Trapped Wealth</h3>
         <p>The Bahamas has <strong>untapped billions</strong> in:</p>
         <ul>
             <li>Aragonite</li>
@@ -198,7 +198,7 @@ th {
     </div>
 
     <div class="wealth-principle">
-        <h3>💡 4. Digital Platforms = Exportable Wealth</h3>
+        <h3>4. Digital Platforms = Exportable Wealth</h3>
         <p>Instead of just exporting lobster and sand, <strong>export ideas</strong>:</p>
         <ul>
             <li>Online courses (Kemis Academy model)</li>
@@ -211,7 +211,7 @@ th {
     </div>
 
     <div class="wealth-principle">
-        <h3>🏦 5. Financial Systems Must Be Understood, Then Hacked</h3>
+        <h3>5. Financial Systems Must Be Understood, Then Hacked</h3>
         <p>Most Bahamians don't learn about:</p>
         <ul>
             <li>Compound interest</li>
@@ -237,7 +237,7 @@ th {
     </div>
 
     <div class="wealth-principle">
-        <h3>📈 6. Wealth Is Created by Systems, Not Hustles</h3>
+        <h3>6. Wealth Is Created by Systems, Not Hustles</h3>
         <p>The "grind" culture only gets you so far.</p>
         
         <blockquote>A hustle ends when you stop working. A system pays you while you sleep.</blockquote>
@@ -252,7 +252,7 @@ th {
     </div>
 
     <div class="wealth-principle">
-        <h3>🧠 7. Wealth Without Wisdom = Collapse</h3>
+        <h3>7. Wealth Without Wisdom = Collapse</h3>
         <p>In The Bahamas, we've seen:</p>
         <ul>
             <li>Lottery winners go broke</li>
@@ -270,7 +270,7 @@ th {
     </div>
 
     <div class="framework-section">
-        <h2>🧭 Final Framework: Bahamian Wealth Creation Pyramid</h2>
+        <h2>Final Framework: Bahamian Wealth Creation Pyramid</h2>
         
         <table>
             <thead>
@@ -307,7 +307,7 @@ th {
     </div>
 
     <div class="blocks-section">
-        <h3>🚨 What Blocks Bahamian Wealth Creation?</h3>
+        <h3>What Blocks Bahamian Wealth Creation?</h3>
         <ul>
             <li>Lack of access to startup capital</li>
             <li>Gatekeeping in banks, media, and political circles</li>
@@ -317,7 +317,7 @@ th {
     </div>
 
     <div class="unlocks-section">
-        <h3>✅ What Unlocks It?</h3>
+        <h3>What Unlocks It?</h3>
         <ul>
             <li>Ownership over what we build, share, and sell</li>
             <li>Systems that scale: software, exports, royalties, digital assets</li>
