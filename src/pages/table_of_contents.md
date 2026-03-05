@@ -11,10 +11,13 @@ show_sidebar: true
 
 ## PART I: DIGITAL FREEDOM
 **BUILDING WEALTH**
-- [Understand How Wealth Is Created](/books/building-digital-wealth/)
-- [Find and Build Specific Knowledge](/essays/specific-knowledge/)
-- [Play Long-Term Games with Long-Term People](/essays/long-term-games/)
-- [Take on Accountability](/essays/accountability/)
+- [Smart Black Book of Digital Marketing](/books/building-digital-wealth/smart-black-book/)
+- [Smart Black Book of Facebook Advertising](/books/building-digital-wealth/smart-black-book-facebook/)
+- [Digital Hustler Starter Kit](/books/building-digital-wealth/digital-hustler-starter-pack/)
+- [How Wealth Is Created: A Bahamian Perspective](/books/Bahamian_Wealth_Creation/)
+- [Find and Build Your Specific Knowledge](/books/Moncur_Specific_Knowledge/)
+- [Play Long-Term Games with Long-Term People](/books/Moncur_Long_Term_Games/)
+- [Take on Accountability](/books/Moncur_Accountability_Bahamas/)
 
 **BUILDING JUDGMENT**
 - [How to Think Clearly](/essays/judgment/)
@@ -33,8 +36,32 @@ show_sidebar: true
 - [Meditation + Mental Strength](/essays/meditation/)
 - [Choosing to Free Yourself](/essays/freedom/)
 
+## PART III: SYSTEMS & STRATEGY
+- [The Empire Blueprint](/essays/empire-blueprint/)
+- [Systems Over Stress](/essays/systems-over-stress/)
+- [Building in Silence](/essays/building-in-silence/)
+- [Web & Software](/pages/web-software/)
+
+## PART IV: LEGACY & IDENTITY
+- [Bahamian by Design](/essays/bahamian-by-design/)
+- [The Moncur Method](/books/The_Moncur_Method/)
+- [Fatherhood & Legacy](/essays/fatherhood-legacy/)
+
+## PART V: DIGITAL POWER & ETHICS
+- [Data Sovereignty Is Not Optional](/essays/data-sovereignty/)
+- [The Ghost Protocols](/essays/ghost-protocols/)
+
+## PART VI: THE STREET & THE CODE
+
+- [The Art of War Rooms](/essays/art-of-war-rooms/)
+- [The Hustler's Compass](/essays/hustlers-compass/)
+
+## PART VII: FRAMEWORKS & SYSTEMS
+**SOVEREIGN NATION FRAMEWORK**
+- [The Sovereign Nation Framework](/books/frameworks/sovereign-nation-framework/)
+- [The Digital Constitution of the Young Bahamian Citizen](/books/frameworks/digital-constitution-bahamas/)
+
 ## BONUS
 - [Recommended Reading](/books/recommended/)
-- [Bahamian Quizzes](/quizzes/)
 - [Media Gallery](/media/)
 - [Contact](/contact/)

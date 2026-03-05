@@ -33,13 +33,13 @@
     }
     .site-header-title {
       font-family: 'IBM Plex Serif', serif;
-      font-weight: 700;
+      font-weight: 400;
       font-size: 1.05rem;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
     .site-header-title a {
-      color: var(--black);
+      color: #666666;
       text-decoration: none;
     }
     .site-header-title .divider {
@@ -259,8 +259,8 @@
   <nav class="side-menu" id="sideMenu">
     <button class="close-btn" id="closeMenuBtn" aria-label="Close menu">&times;</button>
     <ul>
-      <li class="active">Home</li>
-      <li>Books</li>
+      <li onclick="window.location.href='/'">Home</li>
+      <li onclick="window.location.href='/pages/table_of_contents/'">Books</li>
       <li>Essays</li>
       <li>Quizzes</li>
       <li>Media Gallery</li>
@@ -292,7 +292,7 @@
   </section>
   {% endif %}
   <div class="main-container">
-    <main class="content-column" style="transform: translateX(5%);">
+    <main class="content-column">
       
       {{ content | safe }}
     </main>

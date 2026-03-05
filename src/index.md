@@ -4,7 +4,7 @@ tagline: A guide to digital freedom, discipline, and legacy.
 layout: page.njk
 ---
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 75vh; text-align: center; color: #333;">
-  <p style="font-size: 1.1rem; font-weight: 600; letter-spacing: 0.5px; color: #111; margin-bottom: 0.5rem;">WELCOME TO THE</p>
+  <p style="font-size: 1.1rem; font-weight: 400; letter-spacing: 0.5px; color: #666666; margin-bottom: 0.5rem;">WELCOME TO THE</p>
   <div style="font-size: 3.2rem; margin-bottom: 2rem; letter-spacing: 2px; text-transform: uppercase; white-space: nowrap;">ALMANACK OF KENNETH C. MONCUR</div>
   <p style="font-style: italic; margin-bottom: 2.5rem;">A personal guide to freedom, systems, and sovereign thinking in the digital age.</p>
   <div style="margin-bottom: 3rem;">
