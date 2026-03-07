@@ -60,6 +60,7 @@ show_sidebar: true
 **SOVEREIGN NATION FRAMEWORK**
 - [The Sovereign Nation Framework](/books/frameworks/sovereign-nation-framework/)
 - [The Digital Constitution of the Young Bahamian Citizen](/books/frameworks/digital-constitution-bahamas/)
+- [KGC Dev System](/books/frameworks/kgc-dev-system/)
 
 ## BONUS
 - [Recommended Reading](/books/recommended/)
